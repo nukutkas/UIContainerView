@@ -13,6 +13,7 @@
 		E58E4A0324F701A500D03898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58E4A0124F701A500D03898 /* Main.storyboard */; };
 		E58E4A0524F701A700D03898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58E4A0424F701A700D03898 /* Assets.xcassets */; };
 		E58E4A0824F701A700D03898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58E4A0624F701A700D03898 /* LaunchScreen.storyboard */; };
+		E58E4A1024F704B000D03898 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E4A0F24F704B000D03898 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E58E4A0424F701A700D03898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E58E4A0724F701A700D03898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E58E4A0924F701A700D03898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58E4A0F24F704B000D03898 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E58E49FB24F701A500D03898 /* AppDelegate.swift */,
 				E58E49FD24F701A500D03898 /* SceneDelegate.swift */,
 				E58E49FF24F701A500D03898 /* ViewController.swift */,
+				E58E4A0F24F704B000D03898 /* DetailViewController.swift */,
 				E58E4A0124F701A500D03898 /* Main.storyboard */,
 				E58E4A0424F701A700D03898 /* Assets.xcassets */,
 				E58E4A0624F701A700D03898 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				E58E4A0024F701A500D03898 /* ViewController.swift in Sources */,
 				E58E49FC24F701A500D03898 /* AppDelegate.swift in Sources */,
 				E58E49FE24F701A500D03898 /* SceneDelegate.swift in Sources */,
+				E58E4A1024F704B000D03898 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nikko.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nikko.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
